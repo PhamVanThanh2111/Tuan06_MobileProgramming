@@ -125,7 +125,7 @@ const Screen4_b = ({ navigation }) => {
             data={DATA}
             renderItem={({ item }) => <ProductItem item={item} />}
             keyExtractor={(item) => item.id}
-            numColumns={2} // Để hiển thị 2 sản phẩm mỗi hàng
+            numColumns={2}
             contentContainerStyle={styles.gridContainer}
           />
         </SafeAreaView>
@@ -206,7 +206,7 @@ const styles = StyleSheet.create({
     width: '100%',
   },
   gridContainer: {
-    padding: 10,
+    padding: 1,
     width: '100%',
   },
   itemContainer: {

@@ -68,7 +68,8 @@ const Screen1 = ({ navigation }) => {
             height: 60,
             backgroundColor: '#E94141',
             borderRadius: 30,
-          }}>
+          }}
+          onPress={() => {navigation.navigate('Screen2')}}>
           <Text
             style={{
               fontSize: 27,
